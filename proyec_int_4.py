@@ -27,7 +27,7 @@ columnas = 10
 for _ in range(filas):
     fila = []
     for _ in range(columnas):
-        fila.append(0)  # Aquí puedes inicializar los elementos a cualquier valor deseado.
+        fila.append(0) 
     matriz.append(fila)
 
 matriz[0][0] = "."
@@ -141,7 +141,6 @@ matriz[9][8] = "."
 matriz[9][9] = "."
 posicion = 0
 end = tuple[9,9]
-#key = readchar.readkey()
 px = 0
 py = 0
 
@@ -150,7 +149,6 @@ while (px, py) != end:
     for row in matriz:
         print("".join(row))
     key_ = readkey()
-    print(f'se esta imprimiendo {key_}')
     if key_ == key.UP:
         print(key_)
         new_px, new_py = px - 1 , py
