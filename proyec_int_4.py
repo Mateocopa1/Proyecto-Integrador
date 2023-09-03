@@ -1,5 +1,5 @@
 import readchar
-import os
+import os   
 from readchar import key
 
 nombre = input('Bienvenido ingresa tu nombre por favor: \n')
