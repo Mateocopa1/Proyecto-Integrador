@@ -15,4 +15,6 @@ La parte cuatro consiste en un laberinto en el cual inicia solicitando el nombre
 
 La parte 5 de nuestro proyecto integrador, se contruye de una clase main y una juego, tambien toma los mapas de una carpeta llamada "Mapas" para alimentar los laberintos igual que en la parte 4 solo que en esta se hace uso de encansulamiento en clases y se toma archivos externos del codigo
 
+La parte 6 de nuestro proyecto integrador, es la misma parte 5 pero modificada de tal formar que cambiamos la lectura del mapa por la funcion readlines y estruturamos para usar funciones como reduce para sumar las cadenas de la lista map y ya en la funcion matrix se convierte en una matrix para modificar y poder jugar en el laberinto 
+
 
